@@ -1,0 +1,470 @@
+
+  /*---------Обнуление-----------*/
+  *{
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  html{
+    box-sizing: border-box;
+  }
+  *, *::before, after{
+    box-sizing: inherit;
+  }
+/*---------ШРИФТИ-----------*/
+
+/*---------ШРИФТИ КІНЕЦЬ-----------*/
+body{
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+}
+.Name{
+  font-weight: 300;
+  font-size: 60px;
+}
+header{
+background-color: #445162;
+min-width: 1276px;
+}
+.header_wreaper{
+display:flex;
+justify-content:space-between;
+max-width: 1276px;
+margin:0 auto;
+padding-left:50px;
+font-size: 20px;
+font-weight: 400;
+padding-bottom: 50px;
+padding-top: 45px;
+color:#ffffff;
+}
+.foto_wreaper{
+  padding-right: 50px;
+}
+
+
+
+.header_list:before{
+    content:url(../img/png/check\ icon.png);
+    margin-right: 10px;
+}
+.header_lists{
+    margin-top: 50px;
+    line-height: 36px;
+    font-size: 20px;
+    list-style-type: none;
+}
+/*-----main_start---------*/
+main{
+  min-width: 1276px;
+}
+.about_product_wreper{
+  display:flex;
+  justify-content: space-between;
+  max-width: 1276px;
+  margin:0 auto;
+  padding-left:50px;
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 50px;
+  line-height: 24px;
+  padding-top: 45px;
+  color:#445161;
+}
+.some_text1{
+  margin-bottom: 20px;
+  max-width: 651px;
+}
+.name2{
+  margin-bottom: 35px;
+  
+}
+.videoblock{
+  padding-right: 50px;
+}
+/* Dignity and pluses product START */
+.name3{
+  text-align: center;
+  padding-top: 35px;
+  margin-bottom: 25px;
+  color: #445161;
+  font-size: 30px;
+  font-weight: 300;
+}
+.pros_and_cons_items{
+  display: grid;
+  max-width:1276px;
+  grid-template-columns: 45px 590px 45px 590px;
+  
+}
+.item{
+  margin-bottom: 35px;
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+.box{
+  width: 35px;
+  height: 35px;
+  background-color: #445161;
+  margin-top: 4px;
+  content: url(../img/png/Layer\ 2.png);
+  padding:6px;
+}
+.pros_and_cons{
+  min-width: 1276px;
+  background-color:#f5f5f5 ;
+  height: 415px;
+}
+.pros_and_cons_wreaper{
+  max-width: 1276px;
+  margin:0 auto;
+  padding-left: 50px;
+ 
+}
+
+/* Dignity and pluses product AND */
+
+/* Scrinshots_start */
+.scrinshots{
+  min-width: 1276px;
+  background-color:white ;
+}
+.scrinshots_wreaper{
+  max-width: 1276px;
+  margin:0 auto;
+  padding-left: 50px;
+  display: grid;
+  grid-template-columns: 215px 400px 215px 400px;
+}
+.scrinshots_box{
+  width: 200px;
+  height: 150px;
+  background-color: #445161;
+  margin-bottom: 30px;
+}
+.scrinshot_item_wreaper{
+  width: 360px;
+  font-size: 16px;
+  color: #445161;
+}
+h3{
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #445161;
+  font-weight: 300;
+}
+.name4{
+  text-align: center;
+  padding-top: 35px;
+  margin-bottom: 35px;
+  font-size: 30px;
+  color: #445161;
+  font-weight: 300;
+}
+/* Scrinshots_AND */
+/* Reviews */
+.reviews{
+  background-color: #f5f5f5;
+  padding: 50px;
+}
+.reviews-title{
+  text-align: center;
+  color: #445161;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  margin-bottom: 35px;
+}
+.reviews-container{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: center;
+ max-width: 1276px;
+  margin:0 auto;
+}
+.container-img{
+  position: relative;
+  display: inline-block;
+  margin-left: 16px;
+}
+.text-img{
+  position: absolute;
+  top: 16px;
+  left: 27px;
+  bottom: 41px;
+  right: 20px;
+
+  color: #333333;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 18px;
+  text-align: left;
+  
+}
+.text-author{
+  position: absolute;
+  top: 80px;
+  left: 1px;
+
+  color: #989898;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 18px;
+  
+}
+.img{
+  vertical-align: top;
+}
+.margin{
+  margin-left: 32px;
+}
+.margin-bottom{
+  margin-bottom: 24px;
+}
+/* /Reviews */
+/* bin_START */
+.name5{
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  color: #445161;
+font-size: 30px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 36px;
+ 
+}
+.bin_title{
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.price{
+  height: 66px;
+  text-align: center;
+  padding-top: 10px;
+  background-color: white;
+ border: 2px solid;
+  font-size: 40px;
+  margin-bottom:20px ;
+  color: #445161;
+}
+
+.list{
+  margin-left:36px;
+  font-size: 14px;
+font-weight: 400;
+font-style: normal;
+line-height: 24px;
+color: white;
+
+
+  
+}
+.bin_wreaper{
+  display: flex;
+  align-items: flex-end;
+  margin:0 auto;
+  max-width: 1276px;
+  justify-content: space-between;
+  padding-left: 143px;
+  padding-right:143px ;
+  padding-bottom: 50px;
+  
+}
+.bin_buy{
+  text-align: center;
+  background-color:white;
+  margin-left: 20px;
+  width: 260px;
+  margin-top: 12px;
+  margin-bottom: 19px;
+  height: 40px;
+  padding-top:auto;
+  padding-bottom:auto;
+  color: #445161;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 5px;
+
+}
+.bin_buy:hover{
+  background-color: yellow;
+  color:#b23849;
+  transform: scale(1.3);
+  transition: 1s;
+  
+}
+.standart{
+background-color: #445161;
+width: 300px;
+height: 306px;
+border-radius: 5px;
+}
+.premium{
+  background-color: #445161;
+  width: 300px;
+  height: 404px;
+  border-radius: 5px;
+}
+.lux{
+  background-color: #445161;
+  width: 300px;
+  height: 499px;
+  border-radius: 5px;
+}
+/* bin_AND */
+
+/*------main_and---------*/
+
+/* Footer start */
+.footer{
+  background-color: #445162;
+}
+.footer-title{
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  padding-top: 53px;
+  padding-bottom: 31px;
+  
+ 
+  
+}
+
+.container{
+  max-width: 1276px;
+  margin:0 auto;
+ 
+  
+}
+/* Form */
+.footer-contacts{ 
+  display: flex;
+  justify-content: center; 
+  
+}
+.row-input{
+  width: 500px;
+  height: 40px;
+  margin-bottom: 21px;
+  border-radius: 5px;
+  outline: none;
+  padding-left: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+.message-row{
+  height: 170px;
+  padding: 5px;
+  /* max-width: 550px;
+  max-height: 200px;
+  min-width: 450px;
+  min-height: 150px; */
+  resize: none;
+  
+}
+::placeholder{
+  color: #445162;
+}
+:focus::-webkit-input-placeholder {color: transparent}
+:focus::-moz-placeholder          {color: transparent}
+:focus:-moz-placeholder           {color: transparent}
+:focus:-ms-input-placeholder      {color: transparent}
+
+.submit{
+  width: 140px;
+  height: 40px;
+  border-radius: 5px;
+} 
+.batton{
+  text-align: center;
+} 
+
+.submit:hover{
+  background-color: tomato;
+  font-weight: 700;
+  font-size: 24px;
+  text-decoration: underline;
+
+
+  animation-name: blinker;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(1.0,0,0,1.0);
+  animation-duration: 1s;
+  -webkit-animation-name: blinker;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: cubic-bezier(1.0,0,0,1.0);
+  -webkit-animation-duration: 1s;
+
+}
+@keyframes blinker {
+  from { opacity: 1.0; }
+  to { opacity: 0.0; }
+}
+ 
+@-webkit-keyframes blinker {
+  from { opacity: 1.0; }
+  to { opacity: 0.0; }
+}
+
+
+
+
+/* /form */
+
+/* Contacts */
+.contacts{
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 46px;
+
+}
+.icons{
+  margin-bottom: 19px;
+} 
+
+
+ .social-contacts{
+  margin-top: 32px; 
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.social-margin{
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.social-icon{
+  margin-right: 5px;
+  display: inline-block;
+  overflow: hidden;
+}
+.social-icon img{
+  transition: 1s;
+  
+}
+.social-icon img:hover{
+  transform: scale(1.4);
+}
+/* .social-icon:hover{
+  transform: scale(1.3); 
+} */
+
+/* /Contacts */
+/* footer and */
+
+
+
